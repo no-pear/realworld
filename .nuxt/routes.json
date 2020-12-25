@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\layout",
+    "children": [
+      {
+        "path": "/",
+        "name": "home",
+        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\home",
+        "_name": "_c0922e52"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\login",
+        "_name": "_575e7a71"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\login",
+        "_name": "_575e7a71"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\settings",
+        "_name": "_187df41b"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\article",
+        "_name": "_8cca9404"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\profile",
+        "_name": "_5a5f1a9e"
+      },
+      {
+        "path": "/create",
+        "name": "create",
+        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\create",
+        "_name": "_f5831218"
+      }
+    ],
+    "_name": "_d8985dbc"
+  }
+]
