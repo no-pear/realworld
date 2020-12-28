@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import { normalizeURL } from '@nuxt/ufo'
+import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _d8985dbc = () => interopDefault(import('..\\pages\\layout' /* webpackChunkName: "" */))
-const _c0922e52 = () => interopDefault(import('..\\pages\\home' /* webpackChunkName: "" */))
-const _575e7a71 = () => interopDefault(import('..\\pages\\login' /* webpackChunkName: "" */))
-const _187df41b = () => interopDefault(import('..\\pages\\settings' /* webpackChunkName: "" */))
-const _8cca9404 = () => interopDefault(import('..\\pages\\article' /* webpackChunkName: "" */))
-const _5a5f1a9e = () => interopDefault(import('..\\pages\\profile' /* webpackChunkName: "" */))
-const _f5831218 = () => interopDefault(import('..\\pages\\create' /* webpackChunkName: "" */))
+const _a79861b4 = () => interopDefault(import('..\\pages\\layout' /* webpackChunkName: "" */))
+const _656697db = () => interopDefault(import('..\\pages\\home' /* webpackChunkName: "" */))
+const _47a4abed = () => interopDefault(import('..\\pages\\login' /* webpackChunkName: "" */))
+const _10f6811f = () => interopDefault(import('..\\pages\\settings' /* webpackChunkName: "" */))
+const _9dcb0f0c = () => interopDefault(import('..\\pages\\article' /* webpackChunkName: "" */))
+const _6b5f95a6 = () => interopDefault(import('..\\pages\\profile' /* webpackChunkName: "" */))
+const _c4831610 = () => interopDefault(import('..\\pages\\create' /* webpackChunkName: "" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -30,34 +30,34 @@ export const routerOptions = {
 
   routes: [{
     path: "/",
-    component: _d8985dbc,
+    component: _a79861b4,
     children: [{
       path: "/",
-      component: _c0922e52,
+      component: _656697db,
       name: "home"
     }, {
       path: "/login",
-      component: _575e7a71,
+      component: _47a4abed,
       name: "login"
     }, {
       path: "/register",
-      component: _575e7a71,
+      component: _47a4abed,
       name: "register"
     }, {
       path: "/settings",
-      component: _187df41b,
+      component: _10f6811f,
       name: "settings"
     }, {
       path: "/article/:slug",
-      component: _8cca9404,
+      component: _9dcb0f0c,
       name: "article"
     }, {
       path: "/profile/:username",
-      component: _5a5f1a9e,
+      component: _6b5f95a6,
       name: "profile"
     }, {
       path: "/create",
-      component: _f5831218,
+      component: _c4831610,
       name: "create"
     }]
   }],
@@ -68,7 +68,7 @@ export const routerOptions = {
 function decodeObj(obj) {
   for (const key in obj) {
     if (typeof obj[key] === 'string') {
-      obj[key] = decodeURIComponent(obj[key])
+      obj[key] = decode(obj[key])
     }
   }
 }

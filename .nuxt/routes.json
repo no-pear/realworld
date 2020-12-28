@@ -1,51 +1,43 @@
 [
   {
     "path": "/",
-    "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\layout",
+    "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\layout",
     "children": [
       {
         "path": "/",
         "name": "home",
-        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\home",
-        "_name": "_c0922e52"
+        "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\home"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\login",
-        "_name": "_575e7a71"
+        "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\login"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\login",
-        "_name": "_575e7a71"
+        "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\login"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\settings",
-        "_name": "_187df41b"
+        "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\settings"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\article",
-        "_name": "_8cca9404"
+        "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\article"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\profile",
-        "_name": "_5a5f1a9e"
+        "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\profile"
       },
       {
         "path": "/create",
         "name": "create",
-        "component": "D:\\\\LAGOU\\\\Part3\\\\module3\\\\fed-e-task-03-03\\\\realworld\\\\pages\\\\create",
-        "_name": "_f5831218"
+        "component": "D:\\\\LAGOU\\\\realworld\\\\pages\\\\create"
       }
-    ],
-    "_name": "_d8985dbc"
+    ]
   }
 ]

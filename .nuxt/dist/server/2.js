@@ -384,7 +384,7 @@ const getTags = () => {
 // CONCATENATED MODULE: ./pages/home/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var pages_homevue_type_script_lang_js_ = (homevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./pages/home/index.vue
 
@@ -404,7 +404,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "2cdac679"
+  "24a822ee"
   
 )
 

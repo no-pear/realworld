@@ -126,6 +126,12 @@ module.exports = require("vue");
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("@nuxt/ufo");
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -229,12 +235,6 @@ function normalizeComponent (
   }
 }
 
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-module.exports = require("@nuxt/ufo");
 
 /***/ }),
 /* 3 */
@@ -743,7 +743,7 @@ var external_vue_ = __webpack_require__(0);
 var external_vue_default = /*#__PURE__*/__webpack_require__.n(external_vue_);
 
 // EXTERNAL MODULE: external "@nuxt/ufo"
-var ufo_ = __webpack_require__(2);
+var ufo_ = __webpack_require__(1);
 
 // EXTERNAL MODULE: external "node-fetch"
 var external_node_fetch_ = __webpack_require__(13);
@@ -1560,19 +1560,19 @@ if (false) {}
 
 
 
-const _d8985dbc = () => interopDefault(__webpack_require__.e(/* import() */ 4).then(__webpack_require__.bind(null, 32)));
+const _a79861b4 = () => interopDefault(__webpack_require__.e(/* import() */ 4).then(__webpack_require__.bind(null, 32)));
 
-const _c0922e52 = () => interopDefault(__webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 30)));
+const _656697db = () => interopDefault(__webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 30)));
 
-const _575e7a71 = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 31)));
+const _47a4abed = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 31)));
 
-const _187df41b = () => interopDefault(__webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(null, 33)));
+const _10f6811f = () => interopDefault(__webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(null, 33)));
 
-const _8cca9404 = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 29)));
+const _9dcb0f0c = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 29)));
 
-const _5a5f1a9e = () => interopDefault(__webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 34)));
+const _6b5f95a6 = () => interopDefault(__webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 34)));
 
-const _f5831218 = () => interopDefault(__webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, 35))); // TODO: remove in Nuxt 3
+const _c4831610 = () => interopDefault(__webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, 35))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1592,34 +1592,34 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/",
-    component: _d8985dbc,
+    component: _a79861b4,
     children: [{
       path: "/",
-      component: _c0922e52,
+      component: _656697db,
       name: "home"
     }, {
       path: "/login",
-      component: _575e7a71,
+      component: _47a4abed,
       name: "login"
     }, {
       path: "/register",
-      component: _575e7a71,
+      component: _47a4abed,
       name: "register"
     }, {
       path: "/settings",
-      component: _187df41b,
+      component: _10f6811f,
       name: "settings"
     }, {
       path: "/article/:slug",
-      component: _8cca9404,
+      component: _9dcb0f0c,
       name: "article"
     }, {
       path: "/profile/:username",
-      component: _5a5f1a9e,
+      component: _6b5f95a6,
       name: "profile"
     }, {
       path: "/create",
-      component: _f5831218,
+      component: _c4831610,
       name: "create"
     }]
   }],
@@ -1629,7 +1629,7 @@ const routerOptions = {
 function decodeObj(obj) {
   for (const key in obj) {
     if (typeof obj[key] === 'string') {
-      obj[key] = decodeURIComponent(obj[key]);
+      obj[key] = Object(ufo_["decode"])(obj[key]);
     }
   }
 }
@@ -1801,7 +1801,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./.nuxt/components/nuxt-error.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_nuxt_errorvue_type_script_lang_js_ = (nuxt_errorvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./.nuxt/components/nuxt-error.vue
 
@@ -1823,7 +1823,7 @@ var nuxt_error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "7cb5f086"
+  "412535ad"
   
 )
 
@@ -2127,7 +2127,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "62d909b1"
+  "03057ba1"
   
 )
 
@@ -2153,7 +2153,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "fbac0fb2"
+  "0dc14bd2"
   
 )
 

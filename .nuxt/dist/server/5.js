@@ -148,7 +148,7 @@ const Cookie =  false ? undefined : undefined;
 // CONCATENATED MODULE: ./pages/login/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var pages_loginvue_type_script_lang_js_ = (loginvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./pages/login/index.vue
 
@@ -168,7 +168,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "460f506b"
+  "c139ab4a"
   
 )
 

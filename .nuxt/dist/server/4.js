@@ -85,7 +85,7 @@ var external_vuex_ = __webpack_require__(3);
 // CONCATENATED MODULE: ./pages/layout/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var pages_layoutvue_type_script_lang_js_ = (layoutvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./pages/layout/index.vue
 
@@ -105,7 +105,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "b3a7aff8"
+  "77538c14"
   
 )
 
