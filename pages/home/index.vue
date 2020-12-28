@@ -2,7 +2,7 @@
   <div class="home-page">
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">conduit</h1>
+        <h1 class="logo-font">拉勾教育</h1>
         <p>A place to share your knowledge.</p>
       </div>
     </div>
@@ -192,7 +192,7 @@ export default {
       getTags(),
     ]);
     const { articles, articlesCount } = articleRes.data;
-    articles.forEach(article=> article.favoriteDisabled = false)
+    articles.forEach((article) => (article.favoriteDisabled = false));
     const { tags } = tagRes.data;
     return {
       articles,
@@ -212,7 +212,7 @@ export default {
   },
   methods: {
     async onFavorite(article) {
-      article.favoriteDisabled = true
+      article.favoriteDisabled = true;
       if (article.favorited) {
         // 取消点赞
         await deleteFavorite(article.slug);
@@ -224,7 +224,7 @@ export default {
         article.favorited = true;
         article.favoritesCount += 1;
       }
-      article.favoriteDisabled = false
+      article.favoriteDisabled = false;
     },
   },
 };
