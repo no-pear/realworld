@@ -3,7 +3,7 @@
     <div class="banner">
       <div class="container">
         <h1 class="logo-font">意难平终将和解</h1>
-        <p>A place to share your knowledge.</p>
+        <p>A place to share your knowledge~~~~</p>
       </div>
     </div>
 
