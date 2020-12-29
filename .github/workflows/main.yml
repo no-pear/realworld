@@ -54,7 +54,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd /home/realworld
-          wget https://github.com/never-forget-window/realworld/releases/latest/download/release.tgz -O release.tgz
+          wget https://github.com/no-pear/realworld/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           npm install --production
           pm2 reload pm2.config.json
