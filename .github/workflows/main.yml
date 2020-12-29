@@ -53,7 +53,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          export PATH=/root/.nvm/versions/node/v15.1.0/bin:$PATH
+          export PATH=/root/.nvm/versions/node/v15.2.0/bin:$PATH
           cd /home/realworld
           wget https://github.com/no-pear/realworld/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
